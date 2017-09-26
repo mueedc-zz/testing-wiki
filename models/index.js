@@ -20,7 +20,7 @@ var Page = db.define('page', {
     },
     tags: {
         type: Sequelize.ARRAY(Sequelize.TEXT),
-        // page.tags = 'programming,coding,javascript'
+        
         set: function (value) {
 
             var arrayOfTags;
